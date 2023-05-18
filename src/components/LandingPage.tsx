@@ -51,9 +51,9 @@ export default function LandingPage() {
                   <button className="explore-btn"> Explore More </button>
                 </div>
               </div>
-              <div> 
+              <h3> 
                 We have a lot of top collects from various top brands and experienced fashion designers around the world.
-              </div>
+              </h3>
             </div>
           </div>
           <div>
