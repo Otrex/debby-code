@@ -1,18 +1,15 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
 import { IntlProvider, FormattedMessage } from 'react-intl';
 import translatedMsg from "./ translations/fr.json";
+import LandingPage from './components/LandingPage';
 
 function App() {
-  const [count, setCount] = useState(0);
   const locale = 'fr-FR';
 
   return (
     <>
       <IntlProvider locale={locale} messages={translatedMsg}>
-        <div>
+        <LandingPage />
+        {/* <div>
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
           </a>
@@ -44,7 +41,7 @@ function App() {
             id="app.clickInstruction"
             defaultMessage="Click on the Vite and React logos to learn more"
           />
-        </p>
+        </p> */}
       </IntlProvider>
     </>
   );
