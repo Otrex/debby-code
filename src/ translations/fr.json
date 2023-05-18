@@ -1,0 +1,6 @@
+{
+  "app.title": "Vite + React",
+  "app.buttonText": "le compte est {count}",
+  "app.editInstruction": "Modifiez {code} et enregistrez pour tester HMR",
+  "app.clickInstruction": "Cliquez sur les logos Vite et React pour en savoir plus"
+}
